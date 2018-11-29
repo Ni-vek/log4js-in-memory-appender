@@ -1,7 +1,7 @@
 {
-  "name": "npm-module-boilerplate",
+  "name": "log4js-in-memory-appender",
   "version": "0.0.7",
-  "description": "Boilerplate for npm modules with ES6 features and syntax",
+  "description": "log4js v2 in memory appender, filtered by category, as a singleton API",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -21,21 +21,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flexdinesh/npm-module-boilerplate.git"
+    "url": "git+https://github.com/Ni-vek/log4js-in-memory-appender.git"
   },
   "keywords": [
-    "boilerplate",
+    "log4js", "appender",
+    "memory",
     "npm",
     "module",
     "node",
     "javascript"
   ],
-  "author": "Dinesh Pandiyan <flexdinesh@gmail.com>",
+  "author": "Kevin BAlINI <kevin.balini@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flexdinesh/npm-module-boilerplate/issues"
+    "url": "https://github.com/Ni-vek/log4js-in-memory-appender/issues"
   },
-  "homepage": "https://github.com/flexdinesh/npm-module-boilerplate#readme",
+  "homepage": "https://github.com/Ni-vek/log4js-in-memory-appender#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
