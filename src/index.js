@@ -31,7 +31,7 @@ if (!hasAppenderKey) {
             global[BUFFER_KEY][log.categoryName].splice(0, numberToRemove);
           }
         }
-        global[BUFFER_KEY][log.categoryName].push(layoutArg(log, options.timezoneOffset).replace(/\\/g, '\\\\'));
+        global[BUFFER_KEY][log.categoryName].push(layoutArg(log, options.timezoneOffset));
       };
 
       // add a shutdown function.
@@ -75,7 +75,6 @@ Object.defineProperty(singleton, 'flush', {
 // ensure the API is never changed
 // -------------------------------
 Object.freeze(singleton);
-
 
 // export the singleton API only
 // -----------------------------
