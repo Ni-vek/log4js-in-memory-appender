@@ -1,6 +1,6 @@
 {
   "name": "npm-module-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.7",
   "description": "Boilerplate for npm modules with ES6 features and syntax",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "test:examples": "node examples/",
     "cover": "istanbul cover _mocha -- --require babel-core/register --require babel-polyfill --recursive",
     "lint": "eslint src test",
-    "build": "cross-env BABEL_ENV=production babel ./log4js-in-memory-appender.js --out-dir lib",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
   },
   "files": [

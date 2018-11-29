@@ -8,9 +8,7 @@
     },
     "production": {
       "presets": ["env", "minify"],
-      "plugins": [
-
-      ]
+      "plugins": []
     }
   }
 }
