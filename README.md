@@ -1,5 +1,5 @@
 # log4js-in-memory-appender
-[![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate) [![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate) [![devDependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/Ni-vek/log4js-in-memory-appender.svg?branch=master)](https://travis-ci.org/Ni-vek/log4js-in-memory-appender.svg?branch=master) [![dependencies Status](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg)](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg) [![devDependencies Status](https://david-dm.org/ni-vek/log4js-in-memory-appender/dev-status.svg)](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 log4js v2 in memory appender, filtered by category, as a singleton API
 
