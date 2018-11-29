@@ -76,6 +76,7 @@ Object.defineProperty(singleton, 'flush', {
 // -------------------------------
 Object.freeze(singleton);
 
+
 // export the singleton API only
 // -----------------------------
 module.exports = singleton;
