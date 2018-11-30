@@ -1,6 +1,6 @@
 {
   "name": "log4js-in-memory-appender",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "log4js v2 in memory appender, filtered by category, as a singleton API",
   "main": "./lib/index.js",
   "scripts": {

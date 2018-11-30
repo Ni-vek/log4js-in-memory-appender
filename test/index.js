@@ -25,17 +25,6 @@ const loggersConfig = {
 };
 
 describe('Memory appender test', () => {
-	it('should have configure function', () => {
-		assert.isFunction(memoryAppender.configure, 'Configure type error');
-	});
-
-	it('should have flush function', () => {
-		assert.isFunction(memoryAppender.flush, 'Flush type error');
-	});
-
-	it('should have buffer object', () => {
-		assert.isObject(memoryAppender.buffer, 'Buffer type error');
-	});
 
 	it('should return a logger instance with category "memory"', () => {
 		log4js.configure(loggersConfig);
@@ -95,7 +84,8 @@ describe('Memory appender test', () => {
 			defaultLogger.info('Test');
 
 			memoryAppender.flush('memory');
-			assert.strictEqual(memoryAppender.buffer.memory.length, 0, 'Logger category error');
+			assert.strictEqual(memoryAppender.buffer.memory.length, 0, 'Memory logger flush error');
+			assert.strictEqual(memoryAppender.buffer.default.length, 1, 'Default logger flush error');
 		})
 	});
 });
