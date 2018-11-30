@@ -1,5 +1,5 @@
 # log4js-in-memory-appender
-[![Build Status](https://travis-ci.org/Ni-vek/log4js-in-memory-appender.svg?branch=master)](https://travis-ci.org/Ni-vek/log4js-in-memory-appender.svg?branch=master) [![dependencies Status](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg)](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg) [![devDependencies Status](https://david-dm.org/ni-vek/log4js-in-memory-appender/dev-status.svg)](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/Ni-vek/log4js-in-memory-appender.svg?branch=master)](https://travis-ci.org/Ni-vek/log4js-in-memory-appender) [![dependencies Status](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg)](https://david-dm.org/ni-vek/log4js-in-memory-appender.svg) [![Coverage Status](https://coveralls.io/repos/github/Ni-vek/log4js-in-memory-appender/badge.svg?branch=master)](https://coveralls.io/github/Ni-vek/log4js-in-memory-appender?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 log4js v2 in memory appender, filtered by category, as a singleton API
 
