@@ -65,7 +65,7 @@ console.log(inMemoryAppender.buffer);
 ## Flushing buffer
 
 ``` js
-inMemoryAppender.flush();
+inMemoryAppender.flush('memory');
 ```
 ## Example
 Run example from the root folder
