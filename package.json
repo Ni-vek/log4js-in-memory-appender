@@ -1,7 +1,7 @@
 {
   "name": "log4js-in-memory-appender",
-  "version": "0.1.1",
-  "description": "log4js v2 in memory appender, filtered by category, as a singleton API",
+  "version": "0.1.2",
+  "description": "log4js v2 in memory appender",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -26,6 +26,7 @@
   },
   "keywords": [
     "log4js",
+    "v2",
     "appender",
     "memory",
     "npm",
